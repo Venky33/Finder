@@ -1,0 +1,14 @@
+{
+    "httpPort": 9021,
+    "httpsPort": 1997,
+    "twitter": {
+        "consumer": {
+            "key":"",
+            "secret":""
+        },
+        "access": {
+            "token":"",
+            "secret": ""
+        }
+    }
+}

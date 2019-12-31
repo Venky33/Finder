@@ -1,0 +1,17 @@
+{
+  "name": "finder",
+  "version": "1.0.0",
+  "description": "Finder is awesome tool for twitter community which let's you find the common friends between two different twitter accounts.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vikas Gawade",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.0"
+  }
+}

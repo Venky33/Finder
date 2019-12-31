@@ -1,0 +1,77 @@
+{
+	"info": {
+		"_postman_id": "2df008b6-8a96-4da1-af93-92e7186a6ff9",
+		"name": "Finder (For Twitter)",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Get Mutual Twitter Friends",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9021/venkywatson_js/JasonRoy20",
+					"host": [
+						"localhost"
+					],
+					"port": "9021",
+					"path": [
+						"venkywatson_js",
+						"JasonRoy20"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logs - Error - Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9021/error?date=31/12/2019",
+					"host": [
+						"localhost"
+					],
+					"port": "9021",
+					"path": [
+						"error"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "31/12/2019"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Logs - Result - Request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "localhost:9021/result?date=31/12/2019",
+					"host": [
+						"localhost"
+					],
+					"port": "9021",
+					"path": [
+						"result"
+					],
+					"query": [
+						{
+							"key": "date",
+							"value": "31/12/2019"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
